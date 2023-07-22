@@ -1,0 +1,12 @@
+0:None
+1:World Map Drums
+2:World Map Drums
+100:Uncharted Island
+101:Underground
+102:Shattered Sands
+103:Tower
+104:Castle
+105:Athletic
+106:TowerBoss
+107:CastleBoss
+108:Bonus

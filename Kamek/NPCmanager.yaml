@@ -1,0 +1,15 @@
+---
+#Replaces Actor 327 EN_TESTMAN (Sprite 415)
+
+
+source_files: [../src/NPCmanager.cpp]
+hooks:
+  - name: TalkBotManagerBuild
+    type: add_func_pointer
+    src_addr_pal: 0x80B0B090
+    target_func: 'dActor_c::build(void)'
+
+  - name: UpdateTalkBotManagerSpriteInfo
+    type: patch
+    addr_pal: 0x8030e418
+    data: '029E 0000  00000000 00000000  FFFFFC00 FFFFFC00 00000400 00000400  0400 0400 0000 0000  0008 0000'
