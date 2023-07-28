@@ -12,6 +12,8 @@
 #define GAME_NAME "Newer FL v1.12"
 #elif defined(NEWER_WII)
 #define GAME_NAME "Newer Wii v1.30"
+#elif defined(MOA)
+#define GAME_NAME "MOA v0.1"
 #else
 #define GAME_NAME "The game"
 #endif
