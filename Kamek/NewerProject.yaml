@@ -85,8 +85,8 @@ modules:
 # - processed/NPCmanager.yaml # doesn't work
   - processed/smw_throws.yaml # works
 # - processed/goombaTower.yaml # freezes game apon compilation???
+  - processed/AntiGrav.yaml 
      # liquidtex garbage # 
 # - processed/LiquidsTex.yaml #figuring
   - processed/lavawaves.yaml # works, may want to add more lavawave settings
 # - processed/tripleblock.yaml # go to hell playerID
-  - processed/AntiGrav.yaml 

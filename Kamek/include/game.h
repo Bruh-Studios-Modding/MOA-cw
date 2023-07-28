@@ -2681,6 +2681,23 @@ struct dWaterInfo_s {
 	u8 type, layer;
 };
 
+struct WaterData {
+    float x;
+    float y;
+    float z;
+    float width;
+    float height;
+    u32 isInUse;
+    u8 type; /*     0 = water
+                    1 = lava
+                    2 = poison
+                    3 = round bubble
+                    4 = tall bubble
+                    5 = wide bubble */
+    u8 layer;
+    u16 pad;
+};
+
 class dWaterManager_c {
 	public:
 		dWaterInfo_s blocks[80];
@@ -2905,23 +2922,6 @@ private:
 	int hasMatrix;	// might be bool ?
 
 	void allocPlayerClass(u8 player_id);					// 800D6E00
-};
-
-struct WaterData {
-    float x;
-    float y;
-    float z;
-    float width;
-    float height;
-    u32 isInUse;
-    u8 type; /*        0 = water
-                    1 = lava
-                    2 = poison
-                    3 = round bubble
-                    4 = tall bubble
-                    5 = wide bubble */
-    u8 layer;
-    u16 pad;
 };
 
 class mTexture_c {

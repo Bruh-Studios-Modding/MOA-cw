@@ -5,7 +5,7 @@ extern "C" u8 checkWater(float, float, u8, float*);
 
 u8 getLiquidSubType(float x, float y, u8 layer, float* unk) { //getLiquidSubType__FP7Point3d
 	for (int i = 0; i < 80; i++) {
-		WaterData* data = &dWaterManager_c::instance->data[i];
+		WaterData* data = &dWaterManager_c::instance->data[i]; //this is the error line. Might just remove this part
 		if(data->isInUse) {
 			if ((data->x <= x) && (x <= data->x + data->width)) {
 				if ((y <= data->y) && (data->y - data->height <= y)) {
