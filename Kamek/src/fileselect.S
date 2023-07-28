@@ -331,13 +331,13 @@ DefaultSavefileInfoData:
 #ifdef FALLING_LEAF
 .string "Unknown Island" #15
 #else
-.string "Uncharted Island" #17
+.string "Forgotten Island" #17
 #endif
-.byte 0,0,0,0,0,0,0,0,0,0 # 10
-.byte 0,0,0,0,0 # 5
-.long 0xF9DAACFF,0xF9DAACFF
+.byte 0,0,0,0,0,0,0,0,0,0,0 # 11
+.byte 0,0,0,0 # 4
+.long 0xFFEC00FF,0xD1C100FF
 .long 0x173714FF,0x3C9135FF
-.long 0xF9DAACFF,0xF9DAACFF
+.long 0xFFEC00FF,0xD1C100FF
 .short 0x75
 .byte 0x2E,0xB
 .byte 1,1
