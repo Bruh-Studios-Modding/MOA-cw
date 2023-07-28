@@ -14,7 +14,6 @@ Kamek/kamek_jpn2.x
 Kamek/kamek_kor.x
 Kamek/kamek_twn.x
 Kamek/kamek_chn.x
-Kamek/tools/cw
 Kamek/tools/*.pyc
 Kamek/tmp
 *.pyc
