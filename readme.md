@@ -1,4 +1,5 @@
-use this
-# yes
+# MOA public source code
+#### THIS IS A FORK OF NEWER, ALL THE OLD CODE IS NOT OURS
 
-This is based off Newer, unfortunatly i already forked it so i cant fork it again
+## What is MOA?
+'Mario's Otherworldly Adventure' or MOA is a ambitious NSMBW mod with many new levels, maps, and custom code and assets.
