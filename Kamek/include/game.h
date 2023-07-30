@@ -2247,9 +2247,9 @@ class dPlayerInput_c {
 		void unsetPermanentForcedButtons(u32 buttons); // 8005E930
 		void setTransientForcedButtons(u32 buttons); // 8005E960
 		void forceShakingOn(); // 8005E980
+        int playerID;
 
 	private:
-		int playerID;
 		u16 heldButtons, nowPressed;
 		u16 lastHeldButtons, lastNowPressed;
 		u16 permanentForcedButtons, transientForcedButtons;
@@ -2672,9 +2672,6 @@ public:
 	REF_NINTENDO_STATE(DemoControl);
 };
 
-
-
-
 struct dWaterInfo_s {
 	float x, y, z, width, height;
 	int isInUse;
@@ -2688,7 +2685,7 @@ struct WaterData {
     float width;
     float height;
     u32 isInUse;
-    u8 type; /*     0 = water
+    u8 type; /*        0 = water
                     1 = lava
                     2 = poison
                     3 = round bubble
@@ -2699,30 +2696,29 @@ struct WaterData {
 };
 
 class dWaterManager_c {
-	public:
-		dWaterInfo_s blocks[80];
-	public:
-		float current;
+    public:
+        WaterData data[80];
+        float current;
 
-		static dWaterManager_c *instance;
+        static dWaterManager_c *instance;
 
-		dWaterManager_c() { instance = this; }
-		~dWaterManager_c() { instance = 0; }
+        dWaterManager_c() { instance = this; }
+        ~dWaterManager_c() { instance = 0; }
 
-		void setup();
-		int addBlock(dWaterInfo_s *block);
+        void setup();
+        int addBlock(WaterData *block);
 
-	private: // ?
-		int isPointWithinSpecifiedBlock(VEC2 *pos, int blockID);
-		int getAngleOfVector(VEC2 *vec);
-		int isPointWithinBubbleInternal(VEC2 *pos, int blockID, VEC2 *pOutVec, float *pFloat, s16 *pShort);
+    private: // ?
+        int isPointWithinSpecifiedBlock(VEC2 *pos, int blockID);
+        int getAngleOfVector(VEC2 *vec);
+        int isPointWithinBubbleInternal(VEC2 *pos, int blockID, VEC2 *pOutVec, float *pFloat, s16 *pShort);
 
-	public:
-		int queryPosition(VEC2 *pos, VEC2 *pOutBlockPos, float *pOutFloat, s16 *pOutAngle, int layer);
-		int isPositionWithinBubble(VEC2 *pos, VEC2 *pOutBlockPos, int blockID, int layer);
-		void removeBlock(int blockID);
-		void setPosition(VEC3 *pos, int blockID);
-		void setGeometry(VEC3 *pos, float width, float height, int blockID);
+    public:
+        int queryPosition(VEC2 *pos, VEC2 *pOutBlockPos, float *pOutFloat, s16 *pOutAngle, int layer);
+        int isPositionWithinBubble(VEC2 *pos, VEC2 *pOutBlockPos, int blockID, int layer);
+        void removeBlock(int blockID);
+        void setPosition(VEC3 *pos, int blockID);
+        void setGeometry(VEC3 *pos, float width, float height, int blockID);
 };
 
 class BgGmBase : public dBase_c {
