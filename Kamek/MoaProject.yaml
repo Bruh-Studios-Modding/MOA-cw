@@ -87,6 +87,7 @@ modules:
 # \_|  |_/\___/\_| |_/
 # MOA code hacks
 
+# - processed/iOS.yaml # iOS stuff
   - processed/midwayFlag.yaml
   - processed/muncher.yaml
 # - processed/NPCmanager.yaml # doesn't work
