@@ -87,6 +87,7 @@ modules:
 # \_|  |_/\___/\_| |_/
 # MOA code hacks
 
+# - processed/iOS.yaml # iOS stuff
   - processed/midwayFlag.yaml
   - processed/muncher.yaml
 # - processed/NPCmanager.yaml # doesn't work
@@ -96,4 +97,5 @@ modules:
      # liquidtex garbage # 
   - processed/LiquidsTex.yaml #WORKS! with lavawaves too
   - processed/lavawaves.yaml # works, may want to add more lavawave settings
-# - processed/tripleblock.yaml # playerID unprivated - still don't know and don't really care.
+    # end liquidtex garbage, more #
+  - processed/tripleblock.yaml # playerID unprivated - still don't know and don't really care.

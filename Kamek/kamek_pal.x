@@ -1946,6 +1946,16 @@ SECTIONS {
 	ContinueFromTwelvethHook = 0x8006F7B8;
 	ContinueFromThirteenthHook = 0x80064F54;
 	ContinueFromFourteenthHook = 0x80070CC4;
+
+	/* iOS */
+	IOS_Open__FPci = 0x80224db0;
+	IOS_Close__Fi = 0x80224fa0;
+	IOS_Ioctl__FiiPvUlPvUli = 0x80225780;
+	IOS_Ioctlv__FiiiiPv = 0x80225ae0;
+	IOS_Ioctl__FiiPvUlPvUl = 0x80225780;
+
+    /* Triple Block */
+	sub_80021740__15daEnBlockMain_cFv = 0x80021740;
 	/* UNKNOWN NAME = idk */
 	/* end new registers */
 	
