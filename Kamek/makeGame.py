@@ -63,5 +63,5 @@ copy_files('kor', 'KR_3')
 copy_files('twn', 'TW_4')
 # copy_files('chn', 'CN_5')
 
-print('Built all!')
+print('Built MOA!')
 

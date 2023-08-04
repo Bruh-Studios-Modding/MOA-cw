@@ -1691,6 +1691,7 @@ class collisionMgr_c {
 		u8 adjacentTileSubType[2];
 		u8 _BA, _BB;
 		u8 _BC; // &8 makes able to enter mini pipes?
+		u8 *pLayerID;
 		u8 currentSlopeType;
 		s16 currentSlopeAngle;
 		u8 currentFlippedSlopeType;
@@ -1705,7 +1706,6 @@ class collisionMgr_c {
 		u8 touchedSpikeFlag;
 		s8 maxTouchedSpikeType;
 		u8 currentSlopeDirection, _E3, onGround_maybe, chainlinkMode;
-		u8 *pLayerID;
 		u8 layer;
 		bool enteredPipeIsMini;
 
@@ -2248,8 +2248,7 @@ class dPlayerInput_c {
 		void setTransientForcedButtons(u32 buttons); // 8005E960
 		void forceShakingOn(); // 8005E980
         int playerID;
-
-	private:
+		
 		u16 heldButtons, nowPressed;
 		u16 lastHeldButtons, lastNowPressed;
 		u16 permanentForcedButtons, transientForcedButtons;
@@ -2573,12 +2572,14 @@ public:
 	u8 _688, isGroundPound, anotherFlag, _68B, _68C, _68D, _68E, _68F;
 	u32 _690;
 	u8 _694;
+	u8 playerID;
 
 	// Regular methods
 	void blockInit(float initialY);
 	void blockUpdate();
 	u8 blockResult();
 
+	void sub_80021740();
 	virtual void calledWhenUpMoveBegins();
 	virtual void calledWhenDownMoveBegins();
 

@@ -66,21 +66,21 @@ int daEnTripleBlock_c::onCreate() {
 
 	tileRight.x = pos.x + 8;
 	tileRight.y = -(16 + pos.y);
-	tileRight.tileNumber = 0x99;
+	tileRight.tileNumber = 0x224;
 
 	//Middle
 	list->add(&tileMiddle);
 
 	tileMiddle.x = pos.x - 8;
 	tileMiddle.y = -(16 + pos.y);
-	tileMiddle.tileNumber = 0x98;
+	tileMiddle.tileNumber = 0x225;
 
 	//Left
 	list->add(&tileLeft);
 
 	tileLeft.x = pos.x - 24;
 	tileLeft.y = -(16 + pos.y);
-	tileLeft.tileNumber = 0x97;
+	tileLeft.tileNumber = 0x226;
 
 	this->wasIHit = 0.0f;
 	this->pos.z = 200.0f;

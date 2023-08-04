@@ -1953,6 +1953,9 @@ SECTIONS {
 	IOS_Ioctl__FiiPvUlPvUli = 0x80225780;
 	IOS_Ioctlv__FiiiiPv = 0x80225ae0;
 	IOS_Ioctl__FiiPvUlPvUl = 0x80225780;
+
+    /* Triple Block */
+	sub_80021740__15daEnBlockMain_cFv = 0x80021740;
 	/* UNKNOWN NAME = idk */
 	/* end new registers */
 	
