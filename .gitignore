@@ -21,6 +21,5 @@ Kamek/tmp
 *.pyc
 Kamek/tools/__pycache__
 __pycache__
-.DS_Store
 Bootstrap/BoostrapOutput
 Bootstrap/-v
