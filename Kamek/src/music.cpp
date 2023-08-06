@@ -21,16 +21,66 @@ struct Hijacker {
 
 
 const char* SongNameList [] = {
-	"FORGOTTEN_ISLAND", // id 1
-	"UNDERGROUND", // id 2
-	"SHATTERED_SANDS", // id 3
-	"TOWER", // id 4
-	"CASTLE", // id 5
-	"ATHLETIC", // id 6
-	"TOWER_BOSS", // id 7
-	"CASTLE_BOSS", // id 8
-	"BONUS", // id 9
-
+	"AIRSHIP",
+	"BOSS_TOWER",
+	"MENU",
+	"UNDERWATER",
+	"ATHLETIC",
+	"CASTLE",
+	"MAIN",
+	"MOUNTAIN",
+	"TOWER",
+	"UNDERGROUND",
+	"DESERT",
+	"FIRE",
+	"FOREST",
+	"FREEZEFLAME",
+	"JAPAN",
+	"PUMPKIN",
+	"SEWER",
+	"SPACE",
+	"BOWSER",
+	"BONUS",	
+	"AMBUSH",	
+	"BRIDGE_DRUMS",	
+	"SNOW2",	
+	"MINIMEGA",	
+	"CLIFFS",
+	"AUTUMN",
+	"CRYSTALCAVES",
+	"GHOST_HOUSE",
+	"GRAVEYARD",
+	"JUNGLE",
+	"TROPICAL",
+	"SKY_CITY",
+	"SNOW",
+	"STAR_HAVEN",
+	"SINGALONG",
+	"FACTORY",
+	"TANK",
+	"TRAIN",
+	"YOSHIHOUSE",
+	"FACTORYB",
+	"CAVERN",
+	"SAND",
+	"SHYGUY",
+	"MINIGAME",
+	"BONUS_AREA",
+	"CHALLENGE",
+	"BOWSER_CASTLE",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"BOSS_CASTLE",
+	"BOSS_AIRSHIP",
+	"FORGOTTEN_ISLAND", // id 158
+	"SHATTERED_SANDS", // id 159
 	NULL	
 };
 
