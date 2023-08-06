@@ -21,15 +21,15 @@ struct Hijacker {
 
 
 const char* SongNameList [] = {
-	"UnchartedIsland",
-	"Underground",
-	"ShatteredSands",
-	"Tower",
-	"Castle",
-	"Athletic",
-	"TowerBoss",
-	"CastleBoss",
-	"Bonus",
+	"FORGOTTEN_ISLAND", // id 1
+	"UNDERGROUND", // id 2
+	"SHATTERED_SANDS", // id 3
+	"TOWER", // id 4
+	"CASTLE", // id 5
+	"ATHLETIC", // id 6
+	"TOWER_BOSS", // id 7
+	"CASTLE_BOSS", // id 8
+	"BONUS", // id 9
 
 	NULL	
 };
