@@ -92,8 +92,7 @@ modules:
   - processed/muncher.yaml
 # - processed/NPCmanager.yaml # doesn't work
   - processed/smw_throws.yaml # works
-# - processed/goombaTower.yaml # freezes game apon compilation???
-  - processed/AntiGrav.yaml 
+# - processed/goombaTower.yaml # freezes game apon compilation??? 
      # liquidtex garbage # 
   - processed/LiquidsTex.yaml #WORKS! with lavawaves too
   - processed/lavawaves.yaml # works, may want to add more lavawave settings

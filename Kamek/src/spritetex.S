@@ -331,6 +331,19 @@ IgaPukuSoundChange:
 	li r4, 644
 	blr
 
+# The below was added by aqua21
+
+# .global TEX_FlyingQuestionBlock # powblock, flying "?" block and crowber TEX
+# TEX_FlyingQuestionBlock:
+# .global TEX_PowBlock 
+# TEX_PowBlock:
+.global TEX_Crow
+TEX_Crow:
+    lwz r5, 4(r29)
+    srwi r5, r5, 24
+    andi. r5, r5, 0xF
+    b GetTexFilenameForR5
+
 # The below was added by Tempus
 
 
