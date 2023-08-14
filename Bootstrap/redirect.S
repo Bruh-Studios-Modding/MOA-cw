@@ -115,9 +115,9 @@ Addresses_TW:
 	.long 0x802E1D1C		# sprintf
 	.byte 'T','W',0,0
 
-PatchFile:	.string "/MoaRes/Systemxx_x.bin"
-DLCode:		.string "/MoaRes/DLCodexx_x.bin"
-DLRelocs:	.string "/MoaRes/DLRelocsxx_x.bin"
+PatchFile:	.string "/NewerRes/Systemxx_x.bin"
+DLCode:		.string "/NewerRes/DLCodexx_x.bin"
+DLRelocs:	.string "/NewerRes/DLRelocsxx_x.bin"
 
 .align 4
 

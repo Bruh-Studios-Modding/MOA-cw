@@ -95,9 +95,9 @@ Addresses_NTSC2:
 	.long 0x802E17DC		# sprintf
 
 
-PatchFile:	.string "/MoaRes/Systemxx_x.bin"
-DLCode:		.string "/MoaRes/DLCodexx_x.bin"
-Relocs:		.string "/MoaRes/DLRelocsxx_x.bin"
+PatchFile:	.string "/NewerRes/Systemxx_x.bin"
+DLCode:		.string "/NewerRes/DLCodexx_x.bin"
+Relocs:		.string "/NewerRes/DLRelocsxx_x.bin"
 
 .align 4
 
