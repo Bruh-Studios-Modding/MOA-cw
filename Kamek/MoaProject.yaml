@@ -97,4 +97,5 @@ modules:
   - processed/LiquidsTex.yaml #WORKS! with lavawaves too
   - processed/lavawaves.yaml # works, may want to add more lavawave settings
     # end liquidtex garbage, more #
-  - processed/tripleblock.yaml # playerID unprivated - still don't know and don't really care.
+  - processed/tripleblock.yaml # functioning
+# - processed/timeclock.yaml

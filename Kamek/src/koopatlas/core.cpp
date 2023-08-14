@@ -184,7 +184,7 @@ bool WMInit_LoadResources2(void *ptr) {
 		OSReport("Load map: %s\n", wm->mapPath);
 	}
 
-	if (wm->mapData.load(wm->mapPath) && wm->borderData.load("NewerRes/MapBorders.bin")) {
+	if (wm->mapData.load(wm->mapPath) && wm->borderData.load("MoaRes/MapBorders.bin")) {
 		return true;
 	} else
 		return false;

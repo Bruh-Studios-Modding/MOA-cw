@@ -768,6 +768,7 @@ enum Actors {
 	DUMMY_ACTOR = 749,
 	LASTACTOR_STAGE = 750,
 	LASTACTOR = 751
+	// New Stuff!
 };
 
 

@@ -61,7 +61,7 @@ bool NewerBootstrap() {
 	
 	OSReport("* Loading sysfile.\n");
 	
-	int entryNum = DVDConvertPathToEntrynum("/NewerRes/System.bin");
+	int entryNum = DVDConvertPathToEntrynum("/MoaRes/System.bin");
 	if (entryNum == -1) {
 		OSFatal(errorfg, errorbg, "FATAL ERROR: Sysfile not found.");
 	}

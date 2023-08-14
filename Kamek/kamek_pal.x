@@ -1956,6 +1956,24 @@ SECTIONS {
 
     /* Triple Block */
 	sub_80021740__15daEnBlockMain_cFv = 0x80021740;
+
+	/* Time Clock */
+	updateUI = 0x800E39A8;
+	ApparentlyStartsMusic = 0x8019BA60;
+	continueTimerLeq100 = 0x800E3988;
+	continueAt8019e154 = 0x8019DE24;
+	continueAt8019e140 = 0x8019DE10;
+
+	instance__7StageC4 = 0x80429CF8;
+	mHeapAllocator_c_done = 0x8016A7C0;
+
+	dEventOpeningTitle_c_StateID_PressButtonExitAnimeEndWait = 0x809917F0;
+
+	sub_809CAE10 = 0x809CA710;
+
+	loc_8091288C = 0x809125CC;
+
+	pow = 0x802E53B4;
 	/* UNKNOWN NAME = idk */
 	/* end new registers */
 	
