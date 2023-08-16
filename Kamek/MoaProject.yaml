@@ -98,3 +98,4 @@ modules:
   - processed/lavawaves.yaml # works, may want to add more lavawave settings
     # end liquidtex garbage, more #
   - processed/tripleblock.yaml # functioning
+  - processed/playerNumberEvent.yaml
