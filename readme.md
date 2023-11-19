@@ -1,5 +1,5 @@
 # MOA public source code
-#### THIS IS A FORK OF NEWER, ALL THE OLD CODE IS NOT OURS
+#### This is a fork of Newer Wii! All credits for code go to Newer Team, Aqua21, NSMLW Team/Nin0, & Nintendo for the original game.
 
 ## What is MOA?
-'Mario's Otherworldly Adventure' or MOA is a ambitious NSMBW mod with many new levels, maps, and custom code and assets.
+'Mario's Otherworldly Adventure' or MOA is an ambitious NSMBW mod with many new levels, maps, and custom code and assets.
