@@ -1,4 +1,4 @@
-# MOA public source code
+# MOA public source code / Cancelled mod
 #### This is a fork of Newer Wii! All credits for code go to Newer Team, aqua21, NSMLW Team/Nin0, & Nintendo for the original game.
 
 ## What is MOA?
